@@ -1,0 +1,48 @@
+.navbar
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffff;
+    margin: 20px;
+}
+.body {
+    padding: 100px;
+}
+.logo
+{
+    width: 100px;
+    cursor: pointer;
+}
+ul
+{
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    flex: 1;
+    justify-content: center; 
+}
+ul li
+{
+    display: flex; 
+    align-items: center;
+    margin: 0 20px; 
+    font-size: 14px;
+    color: #575252;
+}
+ul li.more-item {
+    color: #d06513;
+}
+ul li > .react-icons {
+    margin-left: 1 rem; 
+}
+.button-container {
+    display: inline-flex; 
+    background-color: #e6c4a2; 
+    padding: 0px 0px; 
+    border-radius: 50px; 
+    align-items: center; 
+   
+}
